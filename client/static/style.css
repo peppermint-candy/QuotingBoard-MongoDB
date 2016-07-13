@@ -1,0 +1,46 @@
+
+
+.ct {
+	min-height: 500px;
+	width: 700px;
+	margin: 0 auto; 
+	vertical-align: top;
+	background-color: lightblue;
+	color: black;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.header {
+	width: 100%;
+	height: 20px;
+	background-color: white;
+	margin-top: 10px;
+}
+
+table {
+
+	margin: 0 auto;
+	width: 750px;
+}
+
+th {
+	border-bottom: 1px solid grey;
+}
+
+div form label {
+	display: inline-block;
+	text-align: left;
+	width: 100px;
+	vertical-align: top;
+}
+
+p.q {
+	text-align: left;
+	margin-left: 20px;
+	font-size: 20px;
+
+}
+
+
+

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="/style.css">	
+	<title>Quoting Dojo</title>
+</head>
+<body>
+	
+	<div class="ct">
+	<div class="header"><a href="/">Home</a></div>
+		<h2>Welcome to Quoting Dojo!</h2>
+		<form action="/quotes" method="post">
+			<label>Your name:</label>
+			<input type="text" name="name"><br><br>
+			<label>Your quote:</label>
+			<textarea name="quote" cols="40" rows="20"></textarea><br><br>
+			<input class="button" type="submit" value="Add my quote!"><br><br>
+		</form>
+		<form action="/quotes" method="get">
+			<input class="button" type="submit" value="Skip to quotes!">
+		</form>
+	</div>
+</body>
+</html>
